@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Russo+One&display=swap');
+
+.t {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #DC7000;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.wapper{
+    background: linear-gradient(rgb(0, 0, 0)  , rgb(44, 24, 1)  );
+    width: 100%;
+}
+
+.contener{
+    width: 850px;
+    margin: auto;
+}
+
+header{
+    padding: 50px 0;
+}
+
+header .logo{
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+header .btn{
+    float: right;
+    position: relative;
+    top: -45px;
+
+}
+header .btn{
+    background-color: #DC7000;
+    border-radius: 14px;
+    width: 300px;
+    height: 45px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: all 300ms ease;
+}
+header .btn:hover{
+    cursor: pointer;
+    background-color: #b65e00;
+    transform: scale(1.1);
+}
+
+header .btn a{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-o-nas{
+    display: none;
+}
+header .btn h3 {
+    padding-top: 10px;
+}
+
+
+
+
+
+.hero {
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero--info{
+    width: 550px;
+    padding-top: 70px;
+}
+
+
+.hero--info h2{
+    text-transform: uppercase;
+    color: #DC7000;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.hero--info h1{
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.hero--info p{
+    font-weight: 500px;
+    line-height: 170%;
+    margin: 30px 0px;
+}
+
+
+.hero--info .btn{
+    background-color: #DC7000;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: all 500ms ease;
+}
+.hero--info .btn:hover{
+    cursor: pointer;
+    background-color: #b65e00;
+    transform: scale(1.1);
+}
+
+.hero--info img {
+    position: absolute;
+    top: 35px;
+    right: -150px;
+    width: 70%;
+}
+
+.spisok ul{
+    padding: 50px 0px 0px 20px;
+}
+
+.spisok ul h1{
+    transition: all 500ms ease;
+}
+
+.spisok ul h1:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+#infotextWS {
+    padding: 30px 0px;
+}
+
+#TipText{
+    text-align: center;
+    padding: 30px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+
+.vstup {
+    padding: 0px 0px 20px 0px;
+}
+
+.tipWS .infoWS h1{
+    color: #DC7000;
+}
+.tipWS .infoWS h2{
+    padding: 20px 0px;
+}
+.tipWS .infoWS img{
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .infoWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+.tipWS .vstup h2{
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+.tipWS .comerWS h1{
+    color: #DC7000;
+}
+.tipWS .comerWS h2{
+    padding: 20px 0px;
+}
+.tipWS .comerWS img{
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .comerWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+
+
+
+.tipWS .magazWS h1{
+    color: #DC7000;
+}
+.tipWS .magazWS h2{
+    padding: 20px 0px;
+}
+.tipWS .magazWS img{
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .magazWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+
+
+
+.tipWS .vizitWS h1{
+    color: #DC7000;
+}
+.tipWS .vizitWS h2{
+    padding: 20px 0px;
+}
+.tipWS .vizitWS img{
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .vizitWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+
+
+
+.tipWS .forumWS h1{
+    color: #DC7000;
+}
+.tipWS .forumWS h2{
+    padding: 20px 0px;
+}
+.tipWS .forumWS img{
+   width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .forumWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+
+
+.tipWS .nowostWS h1{
+    color: #DC7000;
+}
+.tipWS .nowostWS h2{
+    padding: 20px 0px;
+}
+.tipWS .nowostWS img{
+   width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .nowostWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+
+
+.tipWS .blogWS h1{
+    color: #DC7000;
+}
+.tipWS .blogWS h2{
+    padding: 20px 0px;
+}
+.tipWS .blogWS img{
+   width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.tipWS .blogWS .h3{
+    padding: 0px 0px 80px 0px;
+}
+
+
+
+
+
+
+
+
+
+#strukturText{
+    text-align: center;
+    padding: 30px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.strukturWS .hero--strukturWS img{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+
+.strukturWS .widWS h1{
+    color: #DC7000;
+}
+
+
+.strukturWS .widWS #netOtstup{
+  padding: 0px 0px 30px 0px;   
+}
+
+.strukturWS .widWS #netOtstup2{
+  padding: 20px 0px 0px 0px;   
+}
+
+.strukturWS .widWS img{
+    padding: 30px 0px;
+}
+
+.strukturWS .widWS .razborWSfront {
+   padding: 0px 0px 20px 0px; 
+
+}
+
+.strukturWS .vnutrStrukturWS h2 {
+    padding: 30px 0px 0px 0px;
+}
+
+.strukturWS .vnutrStrukturWS img {
+    width:100%;
+    padding: 30px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+#HTMLCSStext{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.HTMLCSS .HTML h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.HTMLCSS .HTML img{
+    padding: 30px 0px 0px 0px;
+}
+
+.HTMLCSS .HTML h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+
+
+
+#HTMLCSStext{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.HTMLCSS .CSS h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.HTMLCSS .CSS img{
+    padding: 30px 0px 0px 0px;
+}
+
+.HTMLCSS .CSS h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+.HTMLCSS .JS h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.HTMLCSS .JS img{
+    padding: 30px 0px 0px 0px;
+}
+
+.HTMLCSS .JS h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+.INSTRUMENT .IDE .IDEtext {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.INSTRUMENT .IDE h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.INSTRUMENT .IDE img{
+    padding: 30px 0px 0px 0px;
+}
+
+.INSTRUMENT .IDE h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+
+
+
+.INSTRUMENT .grafika .grafikaTEXT {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.INSTRUMENT .grafika h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.INSTRUMENT .grafika img{
+    padding: 30px 0px 0px 0px;
+}
+
+.INSTRUMENT .grafika h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+
+
+
+
+.CONSTRUKTOR  .CONSTRUKTORtext {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.CONSTRUKTOR  h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.CONSTRUKTOR  img{
+    padding: 30px 0px 0px 0px;
+}
+
+.CONSTRUKTOR  h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+#DomenTEXT{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;  
+}
+.Domen .Domen_info   h2{
+    padding: 30px 0px 0px 0px;  
+}
+
+.Domen .Domen_info   img{
+    padding: 30px 0px 0px 0px;
+}
+
+.Domen .Domen_info   h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000; 
+}
+
+
+
+
+
+.Server .TipServer  .ServerTEXT {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.Server .TipServer  h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.Server .TipServer  img{
+    padding: 30px 0px 0px 0px;
+}
+
+.Server .TipServer  h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+.Server .PokupkaServer  .PokupkaServerTEXT {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.Server .PokupkaServer  h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.Server .PokupkaServer img{
+    padding: 30px 0px 0px 0px;
+}
+
+.Server .PokupkaServer  h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+.Server .PokupkaServer  a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.Zapusk .ZapuskTEXT {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.Zapusk h2{
+    padding: 30px 0px 0px 0px;
+}
+
+.Zapusk img{
+    padding: 30px 0px 0px 0px;
+}
+
+.Zapusk  h1{
+    padding: 30px 0px 0px 0px;
+    color: #DC7000;
+}
+
+
+
+
+
+
+footer .FOOTER {
+    background-color: #DC7000;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+footer .textFOOTER h4{
+    padding: 10px 10px 0px 10px;
+    width: 500px;
+    
+}
+footer .FOOTER .FOOTERIMG img{
+    width: 45px;
+    
+}
+footer .FOOTER .FOOTERIMG{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    height: 45px;
+}
+footer .FOOTER .FOOTERIMG a{
+    padding: 0px 0px 0px 10px;
+    color: rgb(255, 255, 255);
+    
+}
+footer .FOOTER .FOOTERIMG h4{
+    padding: 15px 0px 0px 10px;
+    color: rgb(255, 255, 255);
+}
+.LITRA {
+    color: rgb(255, 255, 255);
+
+}
+footer .FOOTER .textFOOTER a{
+    text-decoration: underline;
+}
+footer .FOOTER .ImG {
+    position: absolute;
+    bottom: 0;      
+    right: 0;       
+    height: 250px;   
+
+}
+
+.GITIMG {
+    width: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contener{
+  width: clamp(300px, 90%, 850px)
+}
+
+
+
+
+
+
+.nawerh{
+    position: relative;  /* Родитель - точка отсчета */
+    display: inline-block; /* Чтобы блок был размером с кнопку */
+}
+
+
+
+
+.nawerh .btn{
+    background-color: #DC7000;
+    border-radius: 50px;
+    width: 160px;
+    height: 45px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: all 300ms ease;
+}
+.nawerh .btn:hover{
+    cursor: pointer;
+    background-color: #b65e00;
+    transform: scale(1.1);
+}
+.nawerh .btn a{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nawerh .btn h3{
+    padding-top: 10px;
+}
+
+.nawerh .btn {
+    position:fixed;
+    top:10px;
+    left: 50px;
+}
+.btn-icon {
+    display: none;
+  }
+
+
+
+@media (max-width: 1200px){
+    .nawerh .btn{
+        background-color: #DC7000;
+        border-radius: 50px;
+        width:45px;
+        height:45px;
+        border: 0;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        transition: all 300ms ease;
+    }
+    .nawerh .btn:hover{
+        cursor: pointer;
+        background-color: #b65e00;
+        transform: scale(1.1);
+    }
+    .nawerh .btn a{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nawerh .btn h3{
+    padding-top: 10px;
+    }  
+
+    .nawerh .btn {
+        position:fixed;
+        top:10px;
+        left: 50px;
+    }
+
+    .btn-text {
+        display: none;
+    }
+
+    .btn-icon {
+        display: block;
+    }
+
+
+    @media (max-width: 820px){
+        header .btn{
+        float: right;
+        position: relative;
+        top: -45px;
+
+        }
+        header .btn{
+            background-color: #DC7000;
+            border-radius: 14px;
+            width: 100px;
+            height: 45px;
+            border: 0;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            transition: all 300ms ease;
+        }
+        header .btn:hover{
+            cursor: pointer;
+            background-color: #b65e00;
+            transform: scale(1.1);
+        }
+
+        header .btn a{
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        header .btn h3 {
+            padding-top: 10px;
+        }
+
+
+        .btn-text-o-nas{
+            display: none;
+        }
+        .btn-o-nas{
+            display: block;
+        }
+        .ImG {
+                display: none;
+        }
+        
+
+        @media (max-width: 650px){
+            header .btn{
+                display: none;
+            }
+
+            .hero--info img{
+                display: none;
+            }
+            
+
+
+        }
+
+    }
+
+
+}
+
+
+
+
