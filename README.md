@@ -53,7 +53,7 @@ text
 
 ## 🌐 Публикация
 
-Сайт доступен по ссылке: [https://ваш-username.github.io/web4beginners](https://ваш-username.github.io/web4beginners)  
+Сайт доступен по ссылке: [https://ARSEN4IK-bit.github.io/web4beginners]([https://ваш-username.github.io/web4beginners](https://github.com/ARSEN4IK-bit/web4beginners_arsen4ik/tree/main#web4beginners--%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85))  
 *(если настроены GitHub Pages)*
 
 ---
@@ -72,7 +72,7 @@ text
 
 - ВКонтакте: [vk.com/web4beginners_arsen4ik](https://vk.com/web4beginners_arsen4ik)
 - Telegram: [t.me/Web4Beginners_ARSEN4IK](https://t.me/Web4Beginners_ARSEN4IK)
-- GitHub: [github.com/ваш-username/web4beginners](https://github.com/ваш-username/web4beginners)
+- GitHub: [github.com/ARSEN4IK-bit/web4beginners]([https://github.com/ваш-username/web4beginners](https://github.com/ARSEN4IK-bit/web4beginners_arsen4ik/tree/main#web4beginners--%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85))
 - Email: web4brginner.arsen4ik@gmail.com
 
 ---
